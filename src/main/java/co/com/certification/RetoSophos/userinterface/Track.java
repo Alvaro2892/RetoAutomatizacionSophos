@@ -15,7 +15,6 @@ public class Track
     public static final Target ClickLookCart = Target.the("Click on look shopping cart").located(By.xpath("(//a[@class='btn primary minicart__action minicart__action--buy'])[1]"));
     public static final Target ScrollToVerify = Target.the("Scroll to verify items").located(By.xpath("(//div[@class='text'])[7]"));
     public static final Target VERIFYITEMS = Target.the("Verify items").located(By.xpath("(//a[@class='product-item__name'])"));
-   // public static final Target prueba = Target.the("....").located(By.xpath("//button[@id='onesignal-slidedown-cancel-button']"));
 
 
 
