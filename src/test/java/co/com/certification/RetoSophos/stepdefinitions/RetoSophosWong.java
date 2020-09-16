@@ -1,6 +1,7 @@
 package co.com.certification.RetoSophos.stepdefinitions;
 
 import co.com.certification.RetoSophos.model.InitializeObjects;
+import co.com.certification.RetoSophos.questions.CheckQLogin;
 import co.com.certification.RetoSophos.tasks.ComeIn;
 import co.com.certification.RetoSophos.tasks.Start;
 import cucumber.api.java.en.Given;
@@ -9,6 +10,7 @@ import cucumber.api.java.en.When;
 
 import java.util.List;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
@@ -27,9 +29,9 @@ public class RetoSophosWong
         theActorInTheSpotlight().attemptsTo(ComeIn.WebSite(data));
     }
 
-    @Then("^he verifies that the purchase was made$")
-    public void heVerifiesThatThePurchaseWasMade()
+    @Then("^he verifies that the purchase was made (.*)$")
+    public void heVerifiesThatThePurchaseWasMade(String questionv)
     {
-
+        theActorInTheSpotlight().should(seeThat(CheckQLogin.is(questionv)));
     }
 }
