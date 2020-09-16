@@ -5,4 +5,4 @@ Feature: As a user of Wong Cencosud I want to enter your website to buy an item.
     When he enters the Wong Cencosud website
     |items               |
     |mani salado manitoba|
-    Then he verifies that the purchase was made
+    Then he verifies that the purchase was made Maní Salado Manitoba Doypack 200 g

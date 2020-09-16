@@ -15,3 +15,9 @@ q
 Asrc/main/java/co/com/certification/RetoSophos/util/Constants.java,9\3\9314f3196c056fcfae5a22845a0dc41d8e7d1e9b
 }
 Msrc/main/java/co/com/certification/RetoSophos/userinterface/EnterWebSite.java,0\9\0956d86883f4bf9aa6bfd161814aba05e047a969
+z
+Jsrc/main/java/co/com/certification/RetoSophos/model/InitializeObjects.java,f\a\fa49090e092a63df1648396a8cb6deff382863ae
+v
+Fsrc/main/java/co/com/certification/RetoSophos/userinterface/Track.java,c\0\c07920878f461ee7d933979d77fac8c3553ee986
+o
+?src/main/java/co/com/certification/RetoSophos/tasks/ComeIn.java,4\7\47a2555e0aa34faf1faa503471cb16d7c64df0f6
